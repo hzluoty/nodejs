@@ -1,5 +1,4 @@
-FROM node:alpine3.22
-
+FROM node:lts-alpine
 WORKDIR /tmp
 
 COPY index.js index.html package.json ./
